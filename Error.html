@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404</title>
+    <link rel="stylesheet" href="Error.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,600&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <header>
+    <nav class="nav-page">
+      <img src="images/Logo.png" alt="" />
+      <div class="nav-list" id="navList">
+        <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Product.html">Product</a></li>
+          <li><a href="Pricing.html">Pricing</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Blogmain.html">Blog</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-list" onclick="showMenu()"></i>
+      <button class="clone-button" type="button" onclick="window.location.href='Error.html'">Clone Project</button>
+    </nav>
+    <section class="content">
+        <img src="images/Shapes (1).png" alt="">
+        <h6>404</h6>
+        <h1>Page Not Found</h1>
+        <p>The page you are looking for doesn't exist <br> or has been moved</p>
+        <button class="red-btn" type="button" onclick="window.location.href='Home.html'">Back to Home</button>
+    </section>
+  </header>
+  <script src="main.js"></script>
+</html>
